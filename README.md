@@ -1,5 +1,5 @@
 ## Install arch linux base system
----------------------------------
+
 > **Set the partition so it's ready to use**
 
 - Setup your disk partition in arch live boot
@@ -11,12 +11,20 @@ mount /dev/sda? /mnt		--> to mount partition
 mkswap /dev/sda?		--> to to creat swap partition
 swapon /dev/sda?	 	--> to activate swap partition
 ```
-> **Run the script after finishing setting the partition**
+> **Download arch installer**
 
 ```bash
 pacman -Sy git
+```
+```bash
 git clone https://github.com/mojoid/sharch
+```
+```bash
 cp sharch/* $HOME
+```
+> **Install arch linux base**
+- run script to install arch linux
+```bash
 ./arch-base.sh
 ```
 - Before running the script,
@@ -24,7 +32,7 @@ cp sharch/* $HOME
 ```bash
 chmod +x *.sh
 ```
-> **Run arch-post-install.sh**
+> **Arch post install**
 
 - After finished with arch-base.sh, continue to run: 
 
