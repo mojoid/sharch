@@ -1,5 +1,5 @@
 ## Install arch linux base system
----------------------------------
+
 > **Set the partition so it's ready to use**
 
 - Setup your disk partition in arch live boot
@@ -33,7 +33,7 @@ chmod +x *.sh
 ```
 
 ## iDesktop
------------
+
 > **iDesktop is i3wm with customization**
 
 Info iDesktop: https://github.com/mojoid/iDesktop
