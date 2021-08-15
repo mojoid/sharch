@@ -42,14 +42,14 @@ chmod +x *.sh
 - Reboot system after installing arch
 - Login as user
 ```bash
-pacman -S git
+$ sudo pacman -S git
 ```
 ```bash
-git clone https://github.com/mojoid/sharch
+$ git clone https://github.com/mojoid/sharch
 ```
 ```bash
-cp sharch/* $HOME
+$ cp sharch/* $HOME
 ```
 ```bash
-./install-desktop.sh
+$ ./install-desktop.sh
 ```
