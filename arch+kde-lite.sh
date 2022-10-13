@@ -286,7 +286,7 @@ set_kde() {
 install_kde() {
 	local packages=''	
 	#plasma
-	packages+=' sddm sddm-kcm plasma-desktop kde-system-meta plasma-nm plasma-pa kdeplasma-addons breeze breeze-grub appstream appstream-qt packagekit packagekit-qt5 gst-libav kdialog'
+	packages+=' sddm sddm-kcm plasma-desktop kde-system-meta kscreen plasma-nm plasma-pa kdeplasma-addons breeze breeze-grub appstream appstream-qt packagekit packagekit-qt5 gst-libav kdialog'
 	#tools
 	packages+=' powerdevil bluedevil dolphin dolphin-plugins discover konsole yakuake kfind ark spectacle gwenview kinfocenter khelpcenter plasma-systemmonitor'
 	#utility
